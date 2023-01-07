@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@300&family=Roboto&display=swap'); 
+*{
+    margin: 0;
+    padding:0;
+}
+ :root {
+    --white:#fafafa;
+    --dark:#263238;
+    --darkgray:#607d8b;
+    --gray:#eceff1;
+
+}
+body{
+    background: rgb(151, 245, 229);
+    color: rgb(243, 15, 15);
+    font-family: 'Roboto', sans-serif;
+    
+}
+.pokemon-cards{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.pokemon-cards .card{
+    border: none;
+    background: var(--white);
+    text-transform: capitalize;
+    width: 160px;
+    height: 330px;
+    color: rgb(128, 7, 97); 
+    font-weight: bold;
+
+}
+.pokemon-cards .card .card-body{
+    background: var(--gray);
+}
+.pokemon-cards .card .card-title{
+    font-size: 15px;
+    font-weight: 600;
+
+}
